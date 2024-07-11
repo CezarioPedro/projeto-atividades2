@@ -63,6 +63,10 @@
     color: var(--cor003);
  }
 
+ main section#gestante{
+    background-color: rgba(255, 255, 255, 0.548);
+ }
+
  nav#menuprincipal {
     font-size: large;
  }
