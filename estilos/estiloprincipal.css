@@ -103,8 +103,8 @@ main#gest h1 {
 }
 
 main#gest h1 picture img {
-   height: 100px;
-   width: 100px;
+   height: 110px;
+   width: 110px;
    border-radius: 50%;
 
    text-align: center;
@@ -147,8 +147,8 @@ main#cri h1 {
 }
 
 main#cri h1 picture img {
-   height: 100px;
-   width: 100px;
+   height: 110px;
+   width: 110px;
    border-radius: 50%;
 
    text-align: center;
@@ -166,12 +166,13 @@ main#cri nav#menucrianca a {
    border-radius: 50%;
    padding: 25px;
    margin: 10px;
-   height: 30px;
-   width: 50px;
+   height: 35px;
+   width: 55px;
 
    color: black;
    font-family: var(--fonte001);
-   font-size: .7em;
+   font-size: .65em;
    text-decoration: none;
    text-align: center;
 }
+
