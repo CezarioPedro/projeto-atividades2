@@ -89,29 +89,43 @@ main.conteudo  p {
   border-radius: 20px;
 }
 
-main#gest {
+main#gest h1 {
    display: flex;
+   flex-flow: row wrap-reverse;
    justify-content: center;
-   flex-flow: row wrap;
+   width: 100vw;
+   padding-top: 10px;
+
+   font-family: var(--fonte001);
+   font-size: 1.8em;
+   text-align: center;
+   background-color: rgba(255, 255, 255, 0.514);
 }
 
-main#gest h1#vazio {
-   background-image: url(/imagens/gestantefundo.jpg);
-   background-size: cover;
-
-   height: 80px;
-   width: 80px;
+main#gest h1 picture img {
+   height: 100px;
+   width: 100px;
    border-radius: 50%;
 
    text-align: center;
 }
 
-main#gest h1#menu {
-   width: 100vw;
-   padding-top: 10px;
+main#gest nav#menugestante {
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
+   background-color: rgba(255, 255, 255, 0.514);
+}
 
-   font-family: var(--fonte001);
-   font-size: 1.2em;
-   text-align: center;
+main#gest nav#menugestante a {
    background-color: white;
+   border-radius: 50%;
+   padding: 25px;
+   margin: 20px;
+   height: 30px;
+
+   color: black;
+   font-family: var(--fonte001);
+   text-decoration: none;
+   text-align: center;
 }
