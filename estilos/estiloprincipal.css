@@ -13,68 +13,105 @@
 
     --cor001: #6F6F6F;
     --cor002: #c55c5c7e;
-    --cor003: #48b0f067;
+    --cor003: #48b0f071;
     --cor004: #f0ed4883;
 }
 
- header {
-    background-image: linear-gradient(to bottom, white,  var(--cor003), var(--cor003), var(--cor003), var(--cor003), var(--cor003),var(--cor003), white);
-    margin-top: -5px;
+html body {
+   background-color: var(--cor003);
+}
 
-    width: 100vw;
-    display: flex;
-    flex-flow: row nowrap;
- }
+header {
+   margin-top: -5px;
+   box-shadow: inset 0px 10px 10px white;
 
- header h1 {
-    color: white;
-    font-size: 1em;
-    font-weight: 400;
+   width: 100vw;
+   display: flex;
+   flex-flow: row nowrap;
 
-    margin: 10px 0px 5px 15px;
-    font-family: var(--fonte001);
- }
+   border-bottom: .5px dashed white;
+}
 
- header nav{
-    margin: 0px 25px -2px 0px;
-    padding-left: 25px;
+header h1 {
+   color: white;
+   font-family: var(--fonte001);
+   font-size: 1em;
+   font-weight: 400;
 
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: flex-end;
- }
+   margin: 10px 0px 5px 15px;
+}
 
- header nav a{
-    padding: 6px;
-    margin: 0px 5px 3px 5px;
+header nav{
+   margin: 0px 25px -2px 0px;
+   padding-left: 25px;
 
-    color: white;
-    text-decoration: none;
-    font-family: var(--fonte001);
-    font-size: .7em;
-    font-weight: bolder;
- }
+   display: flex;
+   flex-flow: row nowrap;
+   align-items: flex-end;
+}
 
- header nav a:hover{
-    background-color: white;
-    border-radius: 5px;
-    font-size: .75em;
-    transition: .7s;
-    color: var(--cor003);
- }
+header nav a {
+   padding: 6px;
+   margin: 0px 5px 3px 5px;
 
- main section#gestante{
-    background-color: rgba(255, 255, 255, 0.548);
- }
+   color: white;
+   border: .5px dashed white;
+   border-bottom: 0px;
 
- nav#menuprincipal {
-    font-size: large;
- }
+   text-decoration: none;
+   font-family: var(--fonte001);
+   font-size: .7em;
+}
 
- nav#menugestante {
-    font-size: large;
- }
+header nav a:hover {
+   background-color: white;
+   border-radius: 5px;
+   font-size: .75em;
+   transition: .7s;
+   color: var(--cor003);
+}
 
- nav#menucrianca {
-    font-size: large;
- }
+main.conteudo {
+   background-image: url(/imagens/fundo001.png);
+   background-size: contain;
+ 
+   margin-bottom: 20px;
+   padding: 20px;
+}
+
+main.conteudo  p {
+  color: black;
+  background-color: white;
+  font-family: var(--fonte001);
+
+  margin: -15px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+main#gest {
+   display: flex;
+   justify-content: center;
+   flex-flow: row wrap;
+}
+
+main#gest h1#vazio {
+   background-image: url(/imagens/gestantefundo.jpg);
+   background-size: cover;
+
+   height: 80px;
+   width: 80px;
+   border-radius: 50%;
+
+   text-align: center;
+}
+
+main#gest h1#menu {
+   width: 100vw;
+   padding-top: 10px;
+
+   font-family: var(--fonte001);
+   font-size: 1.2em;
+   text-align: center;
+   background-color: white;
+}
