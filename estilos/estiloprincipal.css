@@ -113,7 +113,7 @@ main#gest h1 picture img {
 main#gest nav#menugestante {
    display: flex;
    flex-flow: row wrap;
-   justify-content: center;
+   justify-content: space-between;
    background-color: rgba(255, 255, 255, 0.514);
 }
 
@@ -123,9 +123,11 @@ main#gest nav#menugestante a {
    padding: 25px;
    margin: 20px;
    height: 30px;
+   width: 55px;
 
    color: black;
    font-family: var(--fonte001);
+   font-size: .75em;
    text-decoration: none;
    text-align: center;
 }
